@@ -50,6 +50,7 @@ La implementación corre en una sola máquina, así que cada pieza del diagrama 
 ├── cliente.py      # Cliente: envía tareas y muestra los resultados
 ├── diagrama.svg    # Diagrama del sistema (vectorial)
 ├── diagrama.png    # Diagrama del sistema (imagen)
+├── capturas/       # Capturas de la ejecución
 └── README.md
 ```
 
@@ -112,7 +113,17 @@ python cliente.py --demo   # envía un lote de 10 tareas de ejemplo
 
 ---
 
-## 4. Resultado esperado del modo demo
+## 4. Ejecución
+
+**Servidor** — reparte las tareas entre los workers en orden (round-robin):
+
+![Servidor](capturas/servidor.png)
+
+**Cliente** — modo `--demo`:
+
+![Cliente](capturas/cliente.png)
+
+### Salida del cliente
 
 ```
   <- tarea 4 [worker-1, 0.0 s]: PROGRAMACIÓN SOBRE REDES
