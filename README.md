@@ -1,6 +1,6 @@
 # PFO 3 — Rediseño como Sistema Distribuido (Cliente-Servidor)
 
-**Materia:** Programación sobre Redes — Tecnicatura Superior en Desarrollo de Software
+**Materia:** Programación sobre Redes — Tecnicatura Superior en Desarrollo de Software  
 **Alumno:** Guillermo Benítez
 
 Rediseño del gestor de tareas como una arquitectura distribuida. Incluye el diagrama del sistema y una implementación en Python con **sockets TCP**: un servidor que recibe tareas y las distribuye entre workers (cada uno con su pool de hilos) y un cliente que envía tareas y recibe los resultados.
